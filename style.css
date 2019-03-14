@@ -1,0 +1,21 @@
+.text_div {
+  padding: 6px 12px !important;
+  background: #5b88bd;
+  border-bottom-color: #5b88bd;
+  top: 5px;
+  position: relative;
+  color: #fff;
+  border-radius: 2px;
+}
+.tr_button {
+    float: right;
+    margin-top: -30px;
+    margin-right: -25px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: url('chrome-extension://__MSG_@@extension_id__/images/chat-comment-oval-speech-bubble-with-text-lines.png') #FFFF no-repeat 50%;
+    width: 24px;
+    height: 24px;
+    /*background: #4872a3 no-repeat 50%;*/
+  }

@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Voice to text converter for VK",
+  "description": "Расширение для перевода голосовых сообщений в текст в социальной сети ВКонтакте",
+  "version": "1.4",
+  "icons": {
+        "16": "ico/16.png",
+        "48": "ico/48.png",
+        "128": "ico/128.png"
+      },
+
+  "content_scripts": [
+    {
+      "matches": ["*://vk.com/im*"],
+      "css": ["style.css"],
+      "js": ["scripts.js", "jquery-3.3.1.js"]
+
+
+    }
+  ],
+  "web_accessible_resources": [
+    "images/chat-comment-oval-speech-bubble-with-text-lines.png"
+]
+}
